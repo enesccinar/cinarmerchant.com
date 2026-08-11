@@ -1,0 +1,10 @@
+<svg width="720" height="180" viewBox="0 0 720 180" xmlns="http://www.w3.org/2000/svg">
+<rect width="720" height="180" rx="18" fill="#F8FAFC"/>
+<g transform="translate(52 47)">
+<rect x="0" y="0" width="82" height="82" rx="23" fill="#081A33"/>
+<path d="M55 24c-5-5-11-7-18-7-14 0-24 10-24 24s10 24 24 24c7 0 13-2 18-7" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+<path d="M52 31v20" stroke="#10B981" stroke-width="6" stroke-linecap="round"/>
+</g>
+<text x="165" y="83" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="7" fill="#081A33">CINAR</text>
+<text x="167" y="111" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4.3" fill="#657084">MERCHANT SERVICES</text>
+</svg>

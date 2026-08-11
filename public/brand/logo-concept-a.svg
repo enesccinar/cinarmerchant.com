@@ -1,0 +1,8 @@
+<svg width="720" height="180" viewBox="0 0 720 180" xmlns="http://www.w3.org/2000/svg">
+<rect width="720" height="180" rx="18" fill="#F8FAFC"/>
+<g transform="translate(46 53)" fill="none" stroke="#2563EB" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M9 22 34 7l25 15v30L34 67 9 52z"/><path d="m34 7 25 15 15-9"/><path d="m59 52 15 9"/><circle cx="74" cy="13" r="6"/><circle cx="74" cy="61" r="6"/>
+</g>
+<text x="150" y="83" font-family="Inter,Arial,sans-serif" font-size="34" font-weight="800" letter-spacing="7" fill="#081A33">CINAR</text>
+<text x="152" y="111" font-family="Inter,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="4.3" fill="#657084">MERCHANT SERVICES</text>
+</svg>
