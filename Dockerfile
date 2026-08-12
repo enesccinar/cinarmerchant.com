@@ -16,6 +16,7 @@ RUN pnpm install --frozen-lockfile
 COPY . .
 
 RUN pnpm run build
+RUN pnpm prune --prod
 
 # ── runner ───────────────────────────────────
 FROM node:22-alpine AS runner
@@ -26,8 +27,8 @@ ENV NODE_ENV=production
 ENV PORT=3000
 
 COPY --from=builder /app/package.json ./
-RUN corepack enable && corepack prepare pnpm@10.15.0 --activate \
- && NODE_ENV=production pnpm install --frozen-lockfile
+COPY --from=builder /app/node_modules ./node_modules
+RUN corepack enable && corepack prepare pnpm@10.15.0 --activate
 
 COPY --from=builder /app/.next ./.next
 COPY --from=builder /app/public     ./public

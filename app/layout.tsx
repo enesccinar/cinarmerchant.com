@@ -17,7 +17,12 @@ export const metadata: Metadata = {
     siteName: "Cinar Merchant Services",
     type: "website",
   },
-  robots: { index: true, follow: true },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: 'max-image-preview:large',
+  },
+  verification: { other: { "ai-bot-disallowed-by-rules": "" } },
 };
 
 const navigation = [
