@@ -1,0 +1,42 @@
+# dependencies
+node_modules/
+pnpm-store/
+.pnp/*
+!.pnprc.mjs
+
+# next.js
+.next/
+out/
+build/
+dist/
+
+# optional
+.npmrc
+.pnpm-debug.log*
+.env
+.env*.local
+
+# error logs
+error.log
+logs/
+
+# production
+npm-production-debug.log*
+
+# misc
+.DS_Store
+*.pem
+*.log
+
+# debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# editor
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
